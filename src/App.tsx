@@ -1,4 +1,4 @@
-import React, { Suspense, useContext } from 'react';
+import React, { Suspense } from 'react';
 import Counter from "./components/Counter";
 import "./styles/index.scss";
 import { Link, Route, Routes } from "react-router-dom";
