@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="build(deps): extra row">
-      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/AboutPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/AboutPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.tsx" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="build(deps): chunks">
+      <change afterPath="$PROJECT_DIR$/src/styles/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/themes/dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/themes/normal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/ThemeContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/ThemeProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/useTheme.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildDevServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildDevServer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.async.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,10 @@
       <list>
         <option value="HTML File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -70,7 +71,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,6 +83,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -113,7 +115,9 @@
       <updated>1750777286698</updated>
       <workItem from="1750777287712" duration="10796000" />
       <workItem from="1751815280847" duration="18853000" />
-      <workItem from="1752915333200" duration="1064000" />
+      <workItem from="1752915333200" duration="3484000" />
+      <workItem from="1753037472300" duration="3351000" />
+      <workItem from="1753355665809" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -155,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752595868250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="build(deps): chunks">
+      <option name="closed" value="true" />
+      <created>1752916450941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752916450941</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +191,7 @@
     <MESSAGE value="build(deps): delete semicolon" />
     <MESSAGE value="build(deps): set css modules" />
     <MESSAGE value="build(deps): extra row" />
-    <option name="LAST_COMMIT_MESSAGE" value="build(deps): extra row" />
+    <MESSAGE value="build(deps): chunks" />
+    <option name="LAST_COMMIT_MESSAGE" value="build(deps): chunks" />
   </component>
 </project>
