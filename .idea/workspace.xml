@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(router): styles and router">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(router): check the github 2">
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +28,9 @@
         <option value="tsconfig.json" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -126,7 +134,7 @@
       <workItem from="1760086554453" duration="7000" />
       <workItem from="1762797272620" duration="8091000" />
       <workItem from="1763988615748" duration="1204000" />
-      <workItem from="1769609803142" duration="6684000" />
+      <workItem from="1769609803142" duration="9773000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -232,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770202085105</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat(router): check the github">
+      <option name="closed" value="true" />
+      <created>1770202669515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770202669515</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(router): check the github 2">
+      <option name="closed" value="true" />
+      <created>1770202803365</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770202803365</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +286,8 @@
     <MESSAGE value="feat(theme): fix gitignore" />
     <MESSAGE value="feat(architecture): FCD" />
     <MESSAGE value="feat(router): styles and router" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(router): styles and router" />
+    <MESSAGE value="feat(router): check the github" />
+    <MESSAGE value="feat(router): check the github 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(router): check the github 2" />
   </component>
 </project>

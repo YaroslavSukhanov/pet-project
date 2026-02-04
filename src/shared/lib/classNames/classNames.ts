@@ -9,4 +9,3 @@ export const classNames = (cls: string, mods?: Mods, additional?: Array<string>)
             .map(([className]) => className),
     ].join(' ');
 }
-// test commit 2
