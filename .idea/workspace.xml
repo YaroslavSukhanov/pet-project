@@ -4,35 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(theme): fix gitignore">
-      <change afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(architecture): FCD">
+      <change afterPath="$PROJECT_DIR$/src/app/providers/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildResolvers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildResolvers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/types/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/types/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/classNames/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/AboutPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.async.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/useTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +31,8 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -99,11 +83,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/providers/router" />
       <recent name="$PROJECT_DIR$/src/shared/lib" />
       <recent name="$PROJECT_DIR$/src/pages/MainPage/ui" />
       <recent name="$PROJECT_DIR$/src/pages/AboutPage/ui" />
       <recent name="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib" />
-      <recent name="$PROJECT_DIR$/src/shared/config" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,7 +120,23 @@
       <workItem from="1752915333200" duration="3484000" />
       <workItem from="1753037472300" duration="3351000" />
       <workItem from="1753355665809" duration="11052000" />
-      <workItem from="1754325497221" duration="3540000" />
+      <workItem from="1754325497221" duration="4854000" />
+      <workItem from="1754655855018" duration="598000" />
+      <workItem from="1754928272660" duration="602000" />
+      <workItem from="1755093779120" duration="1191000" />
+      <workItem from="1755161261737" duration="724000" />
+      <workItem from="1755777009061" duration="4000" />
+      <workItem from="1756224484293" duration="1201000" />
+      <workItem from="1757799620431" duration="1205000" />
+      <workItem from="1758119022156" duration="599000" />
+      <workItem from="1758191243844" duration="600000" />
+      <workItem from="1758548805905" duration="613000" />
+      <workItem from="1758625934107" duration="2412000" />
+      <workItem from="1758795850065" duration="736000" />
+      <workItem from="1760086554453" duration="7000" />
+      <workItem from="1762797272620" duration="8091000" />
+      <workItem from="1763988615748" duration="1204000" />
+      <workItem from="1769609803142" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -226,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753792580050</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat(architecture): FCD">
+      <option name="closed" value="true" />
+      <created>1754334875329</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754334875329</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +262,7 @@
     <MESSAGE value="feat(theme): added themes" />
     <MESSAGE value="feat(theme): classNames util" />
     <MESSAGE value="feat(theme): fix gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(theme): fix gitignore" />
+    <MESSAGE value="feat(architecture): FCD" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(architecture): FCD" />
   </component>
 </project>
