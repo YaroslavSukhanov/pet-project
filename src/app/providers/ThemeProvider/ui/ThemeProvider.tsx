@@ -3,7 +3,7 @@ import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from "../lib/ThemeContex
 
 const defaultTheme = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme || Theme.Normal;
 
-const ThemeProvider: FC<PropsWithChildren> = ({children}) => {
+export const ThemeProvider: FC<PropsWithChildren> = ({children}) => {
     const [theme, setTheme] = React.useState<Theme>(defaultTheme);
     const defaultProps = useMemo(() => ({
         theme,
@@ -16,5 +16,3 @@ const ThemeProvider: FC<PropsWithChildren> = ({children}) => {
             </ThemeContext.Provider>
     );
 };
-
-export default ThemeProvider;
