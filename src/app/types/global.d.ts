@@ -9,9 +9,10 @@ declare module '*.scss' {
 declare module "*.png";
 declare module "*.jpg";
 declare module "*.jpeg";
-
 declare module "*.svg" {
     import React, { JSX } from "react";
     const SVG: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
     export default SVG;
 }
+
+declare const __IS_DEV__: boolean;
