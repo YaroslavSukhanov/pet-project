@@ -8,8 +8,6 @@ interface NavbarProps {
 }
 
 export function Navbar({ className }: NavbarProps) {
-    console.log(cls, 'cls');
-
     return (
         <div className={classNames(cls.navbar, {}, [className])}>
             <div className={cls.links}>
