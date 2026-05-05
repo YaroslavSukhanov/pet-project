@@ -7,9 +7,10 @@
     "start": "webpack serve --env  port=3000",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
-    "lint:ts": "npx eslint \"**/*.{ts,tsx}\" --fix",
-    "lint:ts:fix": "npx eslint \"**/*.{ts,tsx}\""
-
+    "lint:ts": "eslint \"**/*.{ts,tsx}\" --fix",
+    "lint:ts:fix": "eslint \"**/*.{ts,tsx}\"",
+    "lint:scss": "stylelint \"**/*.scss\"",
+    "lint:scss:fix": "stylelint \"**/*.scss\" --fix"
   },
   "private": true,
   "devDependencies": {
@@ -29,6 +30,7 @@
     "css-loader": "^7.1.2",
     "eslint": "^9.39.4",
     "eslint-config-airbnb-extended": "^3.1.0",
+    "eslint-plugin-i18next": "^6.1.4",
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
@@ -40,6 +42,8 @@
     "sass": "^1.89.2",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
+    "stylelint": "^17.11.0",
+    "stylelint-config-standard-scss": "^17.0.0",
     "ts-loader": "^9.2.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",

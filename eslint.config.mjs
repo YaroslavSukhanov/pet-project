@@ -6,6 +6,7 @@
  */
 
 import path from 'node:path';
+import i18next from 'eslint-plugin-i18next';
 
 import { includeIgnoreFile } from '@eslint/compat';
 import js from '@eslint/js';
@@ -78,6 +79,7 @@ export default defineConfig([
             'react/react-in-jsx-scope': 'off',
             'react/jsx-uses-react': 'off',
             'no-underscore-dangle': ['error', { allow: ['__IS_DEV__'] }],
+            'i18next/no-literal-string': ['error', { markupOnly: true }],
         },
     },
     {
@@ -97,4 +99,5 @@ export default defineConfig([
             'no-underscore-dangle': 'off',
         },
     },
+    i18next.configs['flat/recommended'],
 ]);
