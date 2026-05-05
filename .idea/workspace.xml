@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): babel, i18n, babel-extract">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildDevServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildDevServer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildResolvers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildResolvers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/types/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/types/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.async.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/LangSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/LangSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): added eslint, fixed all files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +135,7 @@
       <workItem from="1773409637785" duration="20345000" />
       <workItem from="1773944990327" duration="4465000" />
       <workItem from="1775662779979" duration="604000" />
-      <workItem from="1777915601414" duration="8429000" />
+      <workItem from="1777915601414" duration="8786000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -335,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1777917709605</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat(infra): added eslint, fixed all files">
+      <option name="closed" value="true" />
+      <created>1778001893764</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1778001893764</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat(infra): added eslint, fixed all files">
+      <option name="closed" value="true" />
+      <created>1778002010115</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1778002010116</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat(infra): added eslint, fixed all files">
+      <option name="closed" value="true" />
+      <created>1778002154637</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1778002154637</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +358,7 @@
     <MESSAGE value="feat(i18n): internationalization" />
     <MESSAGE value="feat(infra): hot module replacement" />
     <MESSAGE value="feat(infra): babel, i18n, babel-extract" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): babel, i18n, babel-extract" />
+    <MESSAGE value="feat(infra): added eslint, fixed all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): added eslint, fixed all files" />
   </component>
 </project>
