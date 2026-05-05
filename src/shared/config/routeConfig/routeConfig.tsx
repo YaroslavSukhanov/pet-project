@@ -1,24 +1,24 @@
-import { RouteProps } from "react-router-dom";
-import { AboutPageAsync } from "pages/AboutPage/ui/AboutPage.async";
-import { MainPageAsync } from "pages/MainPage/ui/MainPage.async";
+import { RouteProps } from 'react-router-dom';
+import { AboutPageAsync } from 'pages/AboutPage/ui/AboutPage.async';
+import { MainPageAsync } from 'pages/MainPage/ui/MainPage.async';
 
 export enum AppRoutes {
     MAIN = 'main',
     ABOUT = 'about',
-};
+}
 
 export const RoutePath: Record<AppRoutes, string> = {
-    [AppRoutes.MAIN] : '/',
+    [AppRoutes.MAIN]: '/',
     [AppRoutes.ABOUT]: '/about',
 };
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {
-    [AppRoutes.MAIN] : {
+    [AppRoutes.MAIN]: {
         path: RoutePath.main,
-        element: <MainPageAsync/>
+        element: <MainPageAsync />,
     },
     [AppRoutes.ABOUT]: {
         path: RoutePath.about,
-        element: <AboutPageAsync/>
+        element: <AboutPageAsync />,
     },
-}
+};
