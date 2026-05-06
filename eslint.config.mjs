@@ -80,6 +80,7 @@ export default defineConfig([
             'react/jsx-uses-react': 'off',
             'no-underscore-dangle': ['error', { allow: ['__IS_DEV__'] }],
             'i18next/no-literal-string': ['error', { markupOnly: true }],
+            '@stylistic/max-len': ['error', { code: 100, ignoreComments: true }],
         },
     },
     {
