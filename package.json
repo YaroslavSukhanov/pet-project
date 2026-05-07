@@ -26,6 +26,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^16.18.126",
     "@types/webpack": "^5.28.5",
+    "@types/webpack-bundle-analyzer": "^4.7.0",
     "@types/webpack-dev-server": "^4.7.2",
     "babel-jest": "^30.3.0",
     "babel-loader": "^10.1.1",
@@ -54,6 +55,7 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.59.2",
     "webpack": "^5.100.1",
+    "webpack-bundle-analyzer": "^5.3.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
   },
