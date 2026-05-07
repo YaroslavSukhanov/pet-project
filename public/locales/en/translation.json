@@ -2,5 +2,8 @@
   "testing translation": "testing translation",
   "Language": "Language",
   "Main": "Main",
-  "Page not found": "Page not found"
+  "Page not found": "Page not found",
+  "An unexpected error occurred": "An unexpected error occurred",
+  "Reload page": "Reload page",
+  "throw error": "throw error"
 }
