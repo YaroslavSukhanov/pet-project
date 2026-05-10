@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): installed bundle analyzer">
-      <change afterPath="$PROJECT_DIR$/config/jest/jestEmptyComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/config/i18n/i18nForTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/tests/renderWithTranslation/renderWithTranslation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.test.tsx" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): added testing infrastructure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/LangSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/LangSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +142,7 @@
       <workItem from="1773944990327" duration="4465000" />
       <workItem from="1775662779979" duration="604000" />
       <workItem from="1777915601414" duration="27039000" />
-      <workItem from="1778257198150" duration="6450000" />
+      <workItem from="1778257198150" duration="6894000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -396,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778181244300</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat(infra): added testing infrastructure">
+      <option name="closed" value="true" />
+      <created>1778424817473</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1778424817473</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ts" />
     <MESSAGE value="refactor config" />
     <MESSAGE value="build(deps): install react and css" />
     <MESSAGE value="build(deps): delete semicolon" />
@@ -439,6 +434,7 @@
     <MESSAGE value="feat(infra): added unnamed router and page, added loader" />
     <MESSAGE value="feat(infra): added errorBoundary, added ErrorPage" />
     <MESSAGE value="feat(infra): installed bundle analyzer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): installed bundle analyzer" />
+    <MESSAGE value="feat(infra): added testing infrastructure" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): added testing infrastructure" />
   </component>
 </project>
