@@ -94,6 +94,17 @@ export default defineConfig([
         },
     },
     {
+        files: [
+            '**/*.test.{ts,tsx,js,jsx}',
+            '**/*.spec.{ts,tsx,js,jsx}',
+            '**/*.stories.{ts,tsx,js,jsx}',
+            '**/setupTests.ts',
+        ],
+        rules: {
+            'import-x/no-extraneous-dependencies': ['error', { devDependencies: true }],
+        },
+    },
+    {
         files: ['**/*.d.ts'],
         rules: {
             '@typescript-eslint/naming-convention': 'off',
