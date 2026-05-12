@@ -1,6 +1,8 @@
 import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { BuildOptions } from './types/config';
+import { buildCssLoader } from './loaders/buildCssLoader';
+import { buildSvgLoader } from './loaders/buildSvgLoader';
 
 export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
     const babelLoader = {
@@ -30,29 +32,8 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
         ],
     };
 
-    const svgLoader = {
-        test: /\.svg$/,
-        use: ['@svgr/webpack'],
-    };
-
-    const moduleScssLoader = {
-        test: /\.module\.s[ac]ss$/i,
-        use: [
-            isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
-            {
-                loader: 'css-loader',
-                options: {
-                    esModule: false,
-                    modules: {
-                        localIdentName: isDev
-                            ? '[path][name]__[local]--[hash:base64:8]'
-                            : '[hash:base64:8]',
-                    },
-                },
-            },
-            'sass-loader',
-        ],
-    };
+    const moduleScssLoader = buildCssLoader(isDev);
+    const moduleSvgLoader = buildSvgLoader(isDev);
 
     const scssLoader = {
         test: /\.s[ac]ss$/i,
@@ -74,7 +55,7 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
         moduleScssLoader,
         scssLoader,
         typescriptLoader,
-        svgLoader,
+        moduleSvgLoader,
         fileLoader,
         babelLoader,
     ];

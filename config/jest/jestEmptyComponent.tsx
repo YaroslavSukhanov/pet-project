@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 export const JestEmptyComponent: FC = () => (
-    <div/>
+    <div />
 );
 
 export default JestEmptyComponent;

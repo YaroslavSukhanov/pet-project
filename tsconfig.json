@@ -6,7 +6,7 @@
     "target": "es2020",
     "jsx": "react-jsx",
     "allowJs": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
@@ -21,7 +21,10 @@
     }
   },
   "include": [
-    "./src/**/*",
-    "./config/jest/setupTests.ts"
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./config/jest/setupTests.ts",
+    "./config/**/*",
+    "./webpack.config.ts"
   ]
 }

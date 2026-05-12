@@ -1,3 +1,6 @@
+// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
+import storybook from 'eslint-plugin-storybook';
+
 /**
  * THIS FILE WAS AUTO-GENERATED.
  * PLEASE DO NOT EDIT IT MANUALLY.
@@ -49,16 +52,11 @@ const typescriptConfig = defineConfig([
     ...configs.react.typescript,
 ]);
 
-export default defineConfig([
-    // Ignore files and folders listed in .gitignore
-    includeIgnoreFile(gitignorePath),
-    // JavaScript config
-    ...jsConfig,
-    // React config
-    ...reactConfig,
-    // TypeScript config
-    ...typescriptConfig,
-    {
+export default defineConfig([// Ignore files and folders listed in .gitignore
+    includeIgnoreFile(gitignorePath), // JavaScript config
+    ...jsConfig, // React config
+    ...reactConfig, // TypeScript config
+    ...typescriptConfig, {
         name: 'custom/rules',
         languageOptions: {
             globals: {
@@ -66,7 +64,7 @@ export default defineConfig([
             },
         },
         rules: {
-            // Индентацию рулит только @stylistic/indent
+        // Индентацию рулит только @stylistic/indent
             '@stylistic/indent': ['error', 4],
             '@stylistic/jsx-indent': 'off',
             '@stylistic/jsx-indent-props': ['error', 4],
@@ -81,12 +79,11 @@ export default defineConfig([
             'no-underscore-dangle': ['error', { allow: ['__IS_DEV__'] }],
             'i18next/no-literal-string': [
                 'error',
-                { markupOnly: true, ignoreAttribute: ['data-testid'] },
+                { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] },
             ],
             '@stylistic/max-len': ['error', { code: 100, ignoreComments: true }],
         },
-    },
-    {
+    }, {
         files: [
             'config/**/*.{ts,js}',
             '**/*.config.{ts,js}',
@@ -95,24 +92,21 @@ export default defineConfig([
         rules: {
             'import-x/no-extraneous-dependencies': ['error', { devDependencies: true }],
         },
-    },
-    {
+    }, {
         files: [
             '**/*.test.{ts,tsx,js,jsx}',
             '**/*.spec.{ts,tsx,js,jsx}',
             '**/*.stories.{ts,tsx,js,jsx}',
             '**/setupTests.ts',
+            '**/lib/tests/**',
         ],
         rules: {
             'import-x/no-extraneous-dependencies': ['error', { devDependencies: true }],
         },
-    },
-    {
+    }, {
         files: ['**/*.d.ts'],
         rules: {
             '@typescript-eslint/naming-convention': 'off',
             'no-underscore-dangle': 'off',
         },
-    },
-    i18next.configs['flat/recommended'],
-]);
+    }, i18next.configs['flat/recommended'], ...storybook.configs['flat/recommended']]);
