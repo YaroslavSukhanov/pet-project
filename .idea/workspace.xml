@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): updated steps in pipeline" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): removed scssLoader">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +144,7 @@
       <workItem from="1777915601414" duration="27039000" />
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
-      <workItem from="1778674469363" duration="5780000" />
+      <workItem from="1778674469363" duration="6283000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -447,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778693120048</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="feat(infra): removed scssLoader">
+      <option name="closed" value="true" />
+      <created>1778693439175</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1778693439175</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(theme): classNames util" />
     <MESSAGE value="feat(theme): fix gitignore" />
     <MESSAGE value="feat(architecture): FCD" />
     <MESSAGE value="feat(router): styles and router" />
@@ -490,6 +500,7 @@
     <MESSAGE value="feat(infra): updated scripts" />
     <MESSAGE value="feat(infra): added main pipeline" />
     <MESSAGE value="feat(infra): updated steps in pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): updated steps in pipeline" />
+    <MESSAGE value="feat(infra): removed scssLoader" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): removed scssLoader" />
   </component>
 </project>
