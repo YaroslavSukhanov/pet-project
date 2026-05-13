@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): removed scssLoader">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): testing pull request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,31 @@
     &quot;assignee&quot;: &quot;YaroslavSukhanov&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="fix-unused-import" />
+                    <option name="lastUsedInstant" value="1778694077" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1778694076" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/YaroslavSukhanov/pet-project.git&quot;,
@@ -60,7 +84,7 @@
     "Node.js.index.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "fix-unused-import",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "/Users/yaroslav/dev/production-project/src/pages",
     "list.type.of.created.stylesheet": "SCSS",
@@ -144,7 +168,7 @@
       <workItem from="1777915601414" duration="27039000" />
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
-      <workItem from="1778674469363" duration="6283000" />
+      <workItem from="1778674469363" duration="7295000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -458,7 +482,31 @@
       <option name="project" value="LOCAL" />
       <updated>1778693439175</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="feat(infra): isolated dev plugins">
+      <option name="closed" value="true" />
+      <created>1778693815960</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1778693815960</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat(infra): deleted unused import">
+      <option name="closed" value="true" />
+      <created>1778694028218</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1778694028219</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat(infra): testing pull request">
+      <option name="closed" value="true" />
+      <created>1778694122927</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1778694122927</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,9 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(theme): fix gitignore" />
-    <MESSAGE value="feat(architecture): FCD" />
-    <MESSAGE value="feat(router): styles and router" />
     <MESSAGE value="feat(router): check the github" />
     <MESSAGE value="feat(router): check the github 2" />
     <MESSAGE value="feat(links): created links" />
@@ -501,6 +546,9 @@
     <MESSAGE value="feat(infra): added main pipeline" />
     <MESSAGE value="feat(infra): updated steps in pipeline" />
     <MESSAGE value="feat(infra): removed scssLoader" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): removed scssLoader" />
+    <MESSAGE value="feat(infra): isolated dev plugins" />
+    <MESSAGE value="feat(infra): deleted unused import" />
+    <MESSAGE value="feat(infra): testing pull request" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): testing pull request" />
   </component>
 </project>
