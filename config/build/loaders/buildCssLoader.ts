@@ -2,7 +2,7 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import webpack from 'webpack';
 
 export const buildCssLoader = (isDev: boolean): webpack.RuleSetRule => ({
-    test: /\.s[ac]ss$/i, // 👈 убрал \.module\. — теперь матчит все scss/sass
+    test: /\.s[ac]ss$/i,
     use: [
         isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
         {

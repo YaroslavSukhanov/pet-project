@@ -35,16 +35,6 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
     const moduleScssLoader = buildCssLoader(isDev);
     const moduleSvgLoader = buildSvgLoader(isDev);
 
-    const scssLoader = {
-        test: /\.s[ac]ss$/i,
-        exclude: /\.module\.s[ac]ss$/i,
-        use: [
-            isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
-            'css-loader',
-            'sass-loader',
-        ],
-    };
-
     const typescriptLoader = {
         test: /\.tsx?$/,
         use: 'ts-loader',
@@ -53,7 +43,6 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
 
     return [
         moduleScssLoader,
-        scssLoader,
         typescriptLoader,
         moduleSvgLoader,
         fileLoader,
