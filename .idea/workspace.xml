@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): screenshot tests">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): added main pipeline">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <workItem from="1777915601414" duration="27039000" />
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
-      <workItem from="1778674469363" duration="3638000" />
+      <workItem from="1778674469363" duration="5449000" />
     </task>
     <task id="LOCAL-00001" summary="refactor config">
       <option name="closed" value="true" />
@@ -426,7 +426,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778686309146</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat(infra): updated scripts">
+      <option name="closed" value="true" />
+      <created>1778686699303</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1778686699303</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat(infra): added main pipeline">
+      <option name="closed" value="true" />
+      <created>1778686959186</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1778686959186</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,8 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build(deps): extra row" />
-    <MESSAGE value="build(deps): chunks" />
     <MESSAGE value="feat(theme): added themes" />
     <MESSAGE value="feat(theme): classNames util" />
     <MESSAGE value="feat(theme): fix gitignore" />
@@ -469,6 +483,8 @@
     <MESSAGE value="feat(infra): connected storybook, added stories" />
     <MESSAGE value="feat(infra): fixed warnings" />
     <MESSAGE value="feat(infra): screenshot tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): screenshot tests" />
+    <MESSAGE value="feat(infra): updated scripts" />
+    <MESSAGE value="feat(infra): added main pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): added main pipeline" />
   </component>
 </project>
