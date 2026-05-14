@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): testing pull request">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): added browser installation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -508,7 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778694122927</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat(infra): added ci screenshot testing">
+      <option name="closed" value="true" />
+      <created>1778780016694</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1778780016695</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat(infra): added browser installation">
+      <option name="closed" value="true" />
+      <created>1778780263405</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1778780263405</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,8 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(router): check the github" />
-    <MESSAGE value="feat(router): check the github 2" />
     <MESSAGE value="feat(links): created links" />
     <MESSAGE value="feat(links): components" />
     <MESSAGE value="feat(i18n): internationalization" />
@@ -551,6 +563,8 @@
     <MESSAGE value="feat(infra): isolated dev plugins" />
     <MESSAGE value="feat(infra): deleted unused import" />
     <MESSAGE value="feat(infra): testing pull request" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): testing pull request" />
+    <MESSAGE value="feat(infra): added ci screenshot testing" />
+    <MESSAGE value="feat(infra): added browser installation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(infra): added browser installation" />
   </component>
 </project>
