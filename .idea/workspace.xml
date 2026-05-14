@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(infra): testing pull request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
     "Node.js.index.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "fix-unused-import",
+    "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "/Users/yaroslav/dev/production-project/src/pages",
     "list.type.of.created.stylesheet": "SCSS",

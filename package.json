@@ -15,7 +15,9 @@
     "test:ui": "test-storybook -c ./config/storybook",
     "test:ui:update": "npm run storybook:test -- -u",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
-    "storybook:build": "storybook build -c ./config/storybook"
+    "storybook:build": "storybook build -c ./config/storybook",
+    "test:ui:ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"http-server storybook-static --port 6006 --silent\" \"wait-on tcp:127.0.0.1:6006 && test-storybook -c ./config/storybook --ci\""
+
   },
   "private": true,
   "devDependencies": {
@@ -46,6 +48,7 @@
     "babel-jest": "^30.3.0",
     "babel-loader": "^10.1.1",
     "babel-plugin-i18next-extract": "^1.1.0",
+    "concurrently": "^9.2.1",
     "css-loader": "^7.1.2",
     "eslint": "^9.39.4",
     "eslint-config-airbnb-extended": "^3.1.0",
@@ -58,6 +61,7 @@
     "file-loader": "^6.2.0",
     "globals": "^17.6.0",
     "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
@@ -73,6 +77,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.59.2",
+    "wait-on": "^9.0.10",
     "webpack": "^5.100.1",
     "webpack-bundle-analyzer": "^5.3.0",
     "webpack-cli": "^4.9.2",
