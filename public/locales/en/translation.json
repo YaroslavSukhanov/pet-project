@@ -1,9 +1,11 @@
 {
   "testing translation": "testing translation",
-  "Language": "Language",
+  "Language": "English",
   "Main": "Main",
   "Page not found": "Page not found",
   "An unexpected error occurred": "An unexpected error occurred",
   "Reload page": "Reload page",
-  "throw error": "throw error"
+  "throw error": "throw error",
+  "ShortLanguage": "EN",
+  "About": "About"
 }

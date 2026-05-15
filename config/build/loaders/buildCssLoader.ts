@@ -14,6 +14,8 @@ export const buildCssLoader = (isDev: boolean): webpack.RuleSetRule => ({
                     localIdentName: isDev
                         ? '[path][name]__[local]--[hash:base64:8]'
                         : '[hash:base64:8]',
+                    namedExport: false,
+                    exportLocalsConvention: 'camelCase',
                 },
             },
         },

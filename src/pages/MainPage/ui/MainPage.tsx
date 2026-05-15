@@ -7,7 +7,7 @@ function MainPage() {
 
     return (
         <div>
-            <BugButton />
+            {/* <BugButton /> */}
             {t('Main')}
         </div>
     );
