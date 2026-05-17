@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(sidebar): independent jobs">
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.test.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="fix(tests): fixed routing in tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -552,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779032494010</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fix(tests): fixed routing in tests">
+      <option name="closed" value="true" />
+      <created>1779033849071</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1779033849071</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): hot module replacement" />
     <MESSAGE value="feat(infra): babel, i18n, babel-extract" />
     <MESSAGE value="feat(infra): added eslint, fixed all files" />
     <MESSAGE value="feat(infra): added stylelint" />
@@ -595,6 +595,7 @@
     <MESSAGE value="feat(infra): changed failureThreshold" />
     <MESSAGE value="feat(sidebar): upgraded sidebar" />
     <MESSAGE value="feat(sidebar): independent jobs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(sidebar): independent jobs" />
+    <MESSAGE value="fix(tests): fixed routing in tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(tests): fixed routing in tests" />
   </component>
 </project>
