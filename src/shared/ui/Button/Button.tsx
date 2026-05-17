@@ -32,8 +32,6 @@ export const Button: FC<ButtonProps> = (props) => {
         className, children, theme, square, size = ButtonSize.M, ...otherProps
     } = props;
 
-    console.log('Button cls:', cls);
-
     const mods: Record<string, boolean> = {
         [cls[theme]]: true,
         [cls.square]: square,
