@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="fix(tests): updated screenshots">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="fix(tests): added --junit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,14 +168,6 @@
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
-    </task>
-    <task id="LOCAL-00001" summary="refactor config">
-      <option name="closed" value="true" />
-      <created>1750953234718</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1750953234718</updated>
     </task>
     <task id="LOCAL-00002" summary="build(deps): install react and css">
       <option name="closed" value="true" />
@@ -564,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779034362237</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="fix(tests): added --junit">
+      <option name="closed" value="true" />
+      <created>1779111162978</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1779111162981</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): added eslint, fixed all files" />
     <MESSAGE value="feat(infra): added stylelint" />
     <MESSAGE value="feat(infra): added jest, added first test" />
     <MESSAGE value="feat(infra): added unnamed router and page, added loader" />
@@ -607,6 +603,7 @@
     <MESSAGE value="feat(sidebar): independent jobs" />
     <MESSAGE value="fix(tests): fixed routing in tests" />
     <MESSAGE value="fix(tests): updated screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(tests): updated screenshots" />
+    <MESSAGE value="fix(tests): added --junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(tests): added --junit" />
   </component>
 </project>
