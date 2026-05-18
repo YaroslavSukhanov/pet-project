@@ -1,7 +1,8 @@
 import React from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
-import { t } from 'i18next';
+import { Modal } from 'shared/ui/Modal/Modal';
+import { useTranslation } from 'react-i18next';
+import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import cls from './Navbar.module.scss';
 
 interface NavbarProps {
@@ -9,9 +10,27 @@ interface NavbarProps {
 }
 
 export function Navbar({ className }: NavbarProps) {
+    const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(false);
+    const { t } = useTranslation();
+
+    const handleOpenModal = () => {
+        setIsAuthModalOpen(!isAuthModalOpen);
+    };
+
     return (
         <div className={classNames(cls.navbar, {}, [className])}>
-            <div className={cls.links} />
+            <Button
+                onClick={handleOpenModal}
+                theme={ButtonTheme.CLEAR_INVERTED}
+                className={cls.links}
+            >
+                {t('Sign in')}
+            </Button>
+            { }
+            <Modal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)}>
+                {/* eslint-disable-next-line */}
+                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+            </Modal>
         </div>
     );
 }

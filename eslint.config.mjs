@@ -82,6 +82,8 @@ export default defineConfig([// Ignore files and folders listed in .gitignore
                 { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] },
             ],
             '@stylistic/max-len': ['error', { code: 100, ignoreComments: true }],
+            'jsx-a11y/no-static-element-interactions': 'off',
+            'jsx-a11y/click-events-have-key-events': 'off',
         },
     }, {
         files: [

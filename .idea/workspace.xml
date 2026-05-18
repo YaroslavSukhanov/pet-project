@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="fix(tests): added --junit" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="fix(tests): added uncommited screenshots">
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Portal/Portal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecoorator/ThemeDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecoorator/ThemeDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +37,8 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="package.json" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -106,10 +125,10 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/ui" />
       <recent name="$PROJECT_DIR$/src/shared/lib/tests" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/config/jest" />
-      <recent name="$PROJECT_DIR$/src/shared/ui" />
       <recent name="$PROJECT_DIR$/src/shared" />
     </key>
   </component>
@@ -168,14 +187,6 @@
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
-    </task>
-    <task id="LOCAL-00002" summary="build(deps): install react and css">
-      <option name="closed" value="true" />
-      <created>1752505723777</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1752505723777</updated>
     </task>
     <task id="LOCAL-00003" summary="build(deps): delete semicolon">
       <option name="closed" value="true" />
@@ -561,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779111162981</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fix(tests): added uncommited screenshots">
+      <option name="closed" value="true" />
+      <created>1779111435138</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1779111435138</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): added stylelint" />
     <MESSAGE value="feat(infra): added jest, added first test" />
     <MESSAGE value="feat(infra): added unnamed router and page, added loader" />
     <MESSAGE value="feat(infra): added errorBoundary, added ErrorPage" />
@@ -604,6 +622,7 @@
     <MESSAGE value="fix(tests): fixed routing in tests" />
     <MESSAGE value="fix(tests): updated screenshots" />
     <MESSAGE value="fix(tests): added --junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(tests): added --junit" />
+    <MESSAGE value="fix(tests): added uncommited screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(tests): added uncommited screenshots" />
   </component>
 </project>
