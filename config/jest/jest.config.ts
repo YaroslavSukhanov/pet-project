@@ -33,6 +33,10 @@ const config: Config = {
     moduleNameMapper: {
         '\\.s?css$': 'identity-obj-proxy',
         '\\.svg': '<rootDir>/config/jest/jestEmptyComponent.tsx',
+        '^entities/(.*)$': '<rootDir>/src/entities/$1',
+    },
+    globals: {
+        __IS_DEV__: true,
     },
 
 };

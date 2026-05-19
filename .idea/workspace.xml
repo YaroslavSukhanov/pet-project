@@ -4,25 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="fix(tests): added uncommited screenshots">
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Portal/Portal.tsx" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(modal): added modal, portal, changed header">
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounter/getCounter.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounter/getCounter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounterValue/getCounterValue.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounterValue/getCounterValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/slice/counterSlice.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/slice/counterSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/types/counterSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/ui/Counter.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Counter/ui/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/types/deepPartial.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/ui/ThemeProvider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecoorator/ThemeDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecoorator/ThemeDecorator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +44,8 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -114,7 +121,7 @@
     "node.js.selected.package.stylelint": "/Users/yaroslav/dev/production-project/node_modules/stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "/Users/yaroslav/dev/production-project/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -125,11 +132,11 @@
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/entities/Counter/model/selectors" />
       <recent name="$PROJECT_DIR$/src/shared/ui" />
       <recent name="$PROJECT_DIR$/src/shared/lib/tests" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/config/jest" />
-      <recent name="$PROJECT_DIR$/src/shared" />
     </key>
   </component>
   <component name="RunManager">
@@ -187,14 +194,7 @@
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
-    </task>
-    <task id="LOCAL-00003" summary="build(deps): delete semicolon">
-      <option name="closed" value="true" />
-      <created>1752505877802</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1752505877802</updated>
+      <workItem from="1779221077978" duration="4803000" />
     </task>
     <task id="LOCAL-00004" summary="build(deps): set css modules">
       <option name="closed" value="true" />
@@ -580,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779111435138</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="feat(modal): added modal, portal, changed header">
+      <option name="closed" value="true" />
+      <created>1779136572133</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136572133</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): added jest, added first test" />
     <MESSAGE value="feat(infra): added unnamed router and page, added loader" />
     <MESSAGE value="feat(infra): added errorBoundary, added ErrorPage" />
     <MESSAGE value="feat(infra): installed bundle analyzer" />
@@ -623,6 +630,7 @@
     <MESSAGE value="fix(tests): updated screenshots" />
     <MESSAGE value="fix(tests): added --junit" />
     <MESSAGE value="fix(tests): added uncommited screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(tests): added uncommited screenshots" />
+    <MESSAGE value="feat(modal): added modal, portal, changed header" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(modal): added modal, portal, changed header" />
   </component>
 </project>
