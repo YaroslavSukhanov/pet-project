@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(modal): added redux store, first entity">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(modal): fixed theme for modal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/ThemeContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,15 +173,7 @@
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
-      <workItem from="1779221077978" duration="8243000" />
-    </task>
-    <task id="LOCAL-00005" summary="build(deps): extra row">
-      <option name="closed" value="true" />
-      <created>1752595868250</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1752595868250</updated>
+      <workItem from="1779221077978" duration="8855000" />
     </task>
     <task id="LOCAL-00006" summary="build(deps): chunks">
       <option name="closed" value="true" />
@@ -567,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779226546103</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="feat(modal): fixed theme for modal">
+      <option name="closed" value="true" />
+      <created>1779288821968</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1779288821968</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): added errorBoundary, added ErrorPage" />
     <MESSAGE value="feat(infra): installed bundle analyzer" />
     <MESSAGE value="feat(infra): added testing infrastructure" />
     <MESSAGE value="feat(infra): fix eslint i18n rule" />
@@ -610,6 +609,7 @@
     <MESSAGE value="fix(tests): added uncommited screenshots" />
     <MESSAGE value="feat(modal): added modal, portal, changed header" />
     <MESSAGE value="feat(modal): added redux store, first entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(modal): added redux store, first entity" />
+    <MESSAGE value="feat(modal): fixed theme for modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(modal): fixed theme for modal" />
   </component>
 </project>
