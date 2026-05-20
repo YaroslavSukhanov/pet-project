@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(modal): fixed theme for modal">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(modal): theming refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storybook/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounter/getCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Counter/model/selectors/getCounter/getCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Counter/model/slice/counterSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Counter/model/slice/counterSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,15 +176,7 @@
       <workItem from="1778257198150" duration="8917000" />
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
-      <workItem from="1779221077978" duration="8855000" />
-    </task>
-    <task id="LOCAL-00006" summary="build(deps): chunks">
-      <option name="closed" value="true" />
-      <created>1752916450941</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1752916450941</updated>
+      <workItem from="1779221077978" duration="10812000" />
     </task>
     <task id="LOCAL-00007" summary="feat(theme): added themes">
       <option name="closed" value="true" />
@@ -567,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779288821968</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="feat(modal): theming refactoring">
+      <option name="closed" value="true" />
+      <created>1779289244849</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1779289244850</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): installed bundle analyzer" />
     <MESSAGE value="feat(infra): added testing infrastructure" />
     <MESSAGE value="feat(infra): fix eslint i18n rule" />
     <MESSAGE value="feat(infra): connected storybook, added stories" />
@@ -610,6 +612,7 @@
     <MESSAGE value="feat(modal): added modal, portal, changed header" />
     <MESSAGE value="feat(modal): added redux store, first entity" />
     <MESSAGE value="feat(modal): fixed theme for modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(modal): fixed theme for modal" />
+    <MESSAGE value="feat(modal): theming refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(modal): theming refactoring" />
   </component>
 </project>

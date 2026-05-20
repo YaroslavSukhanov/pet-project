@@ -28,6 +28,7 @@ export function Navbar({ className }: NavbarProps) {
             </Button>
             { }
             <Modal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)}>
+                {/* eslint-disable-next-line i18next/no-literal-string */}
                 {/* eslint-disable-next-line */}
                 lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
             </Modal>
