@@ -1,8 +1,8 @@
 import React from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { Modal } from 'shared/ui/Modal/Modal';
 import { useTranslation } from 'react-i18next';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
+import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.scss';
 
 interface NavbarProps {
@@ -14,7 +14,7 @@ export function Navbar({ className }: NavbarProps) {
     const { t } = useTranslation();
 
     const handleOpenModal = () => {
-        setIsAuthModalOpen(!isAuthModalOpen);
+        setIsAuthModalOpen(true);
     };
 
     return (
@@ -27,11 +27,7 @@ export function Navbar({ className }: NavbarProps) {
                 {t('Sign in')}
             </Button>
             { }
-            <Modal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)}>
-                {/* eslint-disable-next-line i18next/no-literal-string */}
-                {/* eslint-disable-next-line */}
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-            </Modal>
+            <LoginModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
         </div>
     );
 }

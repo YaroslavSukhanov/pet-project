@@ -1,4 +1,6 @@
-import React, { FC, ReactNode } from 'react';
+import React, {
+    FC, ReactNode, useEffect, useState,
+} from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Portal } from 'shared/ui/Portal/Portal';
 import { useTheme } from 'app/providers/ThemeProvider';
@@ -9,6 +11,7 @@ interface IModalProps {
     children?: ReactNode;
     isOpen?: boolean;
     onClose?: () => void;
+    lazy?: boolean;
 }
 
 const ANIMATION_DELAY = 300;
@@ -51,11 +54,19 @@ const ANIMATION_DELAY = 300;
 // };
 
 export const Modal: FC<IModalProps> = ({
-    className, children, isOpen, onClose,
+    className, children, isOpen, onClose, lazy,
 }) => {
+    const [isMounted, setIsMounted] = useState<boolean>(false);
+
     const mods = {
         [cls.opened]: isOpen,
     };
+
+    useEffect(() => {
+        if (isOpen) {
+            setIsMounted(true);
+        }
+    }, [isOpen]);
 
     React.useEffect(() => {
         if (!isOpen) return undefined;
@@ -77,12 +88,16 @@ export const Modal: FC<IModalProps> = ({
         e.stopPropagation();
     };
 
+    if (lazy && !isMounted) {
+        return null;
+    }
+
     return (
         <Portal container={document.body}>
             <div className={classNames(cls.modal, mods, [className])}>
                 <div className={cls.overlay} onClick={onClose}>
                     <div className={cls.content} onClick={handleContentClick}>
-                        {children}
+                        {isOpen && children}
                     </div>
                 </div>
             </div>
