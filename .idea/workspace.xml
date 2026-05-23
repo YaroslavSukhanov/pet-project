@@ -4,29 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(server): added json-server">
-      <change afterPath="$PROJECT_DIR$/src/entities/Counter/model/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/types/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Input/Input.tsx" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(input): added new input, added login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__snapshots__/pages-mainpage--dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/__snapshots__/pages-mainpage--dark.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__snapshots__/pages-mainpage--normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/__snapshots__/pages-mainpage--normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/preview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,15 +180,7 @@
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
       <workItem from="1779221077978" duration="18204000" />
-      <workItem from="1779377428613" duration="9074000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat(theme): classNames util">
-      <option name="closed" value="true" />
-      <created>1753792483132</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1753792483132</updated>
+      <workItem from="1779377428613" duration="12046000" />
     </task>
     <task id="LOCAL-00010" summary="feat(theme): classNames util">
       <option name="closed" value="true" />
@@ -586,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779302261176</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat(input): added new input, added login">
+      <option name="closed" value="true" />
+      <created>1779538087851</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1779538087852</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): connected storybook, added stories" />
     <MESSAGE value="feat(infra): fixed warnings" />
     <MESSAGE value="feat(infra): screenshot tests" />
     <MESSAGE value="feat(infra): updated scripts" />
@@ -629,6 +616,7 @@
     <MESSAGE value="feat(modal): theming refactoring" />
     <MESSAGE value="fix(modal): fixed errors" />
     <MESSAGE value="feat(server): added json-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(server): added json-server" />
+    <MESSAGE value="feat(input): added new input, added login" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(input): added new input, added login" />
   </component>
 </project>

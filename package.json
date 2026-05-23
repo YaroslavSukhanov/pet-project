@@ -17,7 +17,8 @@
     "test:ui:update": "npm run test:ui -- -u",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook",
-    "test:ui:ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"http-server storybook-static --port 6006 --silent\" \"wait-on tcp:127.0.0.1:6006 && test-storybook -c ./config/storybook --ci --junit\""
+    "test:ui:ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"http-server storybook-static --port 6006 --silent\" \"wait-on tcp:127.0.0.1:6006 && test-storybook -c ./config/storybook --ci --junit\"",
+    "precommit": "npm run lint:scss && npm run lint:ts && npm run test:unit && npm run build:prod && npm run storybook:build && npm run test:ui:ci"
   },
   "private": true,
   "devDependencies": {

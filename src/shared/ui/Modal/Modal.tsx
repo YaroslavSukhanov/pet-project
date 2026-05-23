@@ -1,9 +1,8 @@
-import React, {
-    FC, ReactNode, useEffect, useState,
+import {
+    FC, MouseEvent, ReactNode, useEffect, useState,
 } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Portal } from 'shared/ui/Portal/Portal';
-import { useTheme } from 'app/providers/ThemeProvider';
 import cls from './Modal.module.scss';
 
 interface IModalProps {
@@ -14,61 +13,17 @@ interface IModalProps {
     lazy?: boolean;
 }
 
-const ANIMATION_DELAY = 300;
-
-// export const Modal: FC<IModalProps> = ({
-//     className, children, isOpen, onClose,
-// }) => {
-//     const [isClosing, setIsClosing] = React.useState(false);
-//
-//     const mods = {
-//         [cls.opened]: isOpen,
-//         [cls.isClosing]: isClosing,
-//     };
-//
-//     const timeRef = React.useRef(null);
-//
-//     const handleClose = (): void => {
-//         if (onClose) {
-//             setIsClosing(true);
-//             timeRef.current = setTimeout(() => {
-//                 onClose();
-//                 setIsClosing(false);
-//             }, ANIMATION_DELAY);
-//         }
-//     };
-//
-//     const handleContentClick = (event: React.MouseEvent): void => {
-//         event.stopPropagation();
-//     };
-//
-//     return (
-//         <div className={classNames(cls.modal, mods, [className])}>
-//             <div className={cls.overlay} onClick={handleClose}>
-//                 <div className={cls.content} onClick={handleContentClick}>
-//                     {children}
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
 export const Modal: FC<IModalProps> = ({
     className, children, isOpen, onClose, lazy,
 }) => {
-    const [isMounted, setIsMounted] = useState<boolean>(false);
+    const [hasOpened, setHasOpened] = useState(false);
+    if (isOpen && !hasOpened) setHasOpened(true);
 
     const mods = {
         [cls.opened]: isOpen,
     };
 
     useEffect(() => {
-        if (isOpen) {
-            setIsMounted(true);
-        }
-    }, [isOpen]);
-
-    React.useEffect(() => {
         if (!isOpen) return undefined;
 
         const handleKeyDown = (e: KeyboardEvent): void => {
@@ -84,11 +39,11 @@ export const Modal: FC<IModalProps> = ({
         };
     }, [isOpen, onClose]);
 
-    const handleContentClick = (e: React.MouseEvent): void => {
+    const handleContentClick = (e: MouseEvent): void => {
         e.stopPropagation();
     };
 
-    if (lazy && !isMounted) {
+    if (lazy && !hasOpened) {
         return null;
     }
 

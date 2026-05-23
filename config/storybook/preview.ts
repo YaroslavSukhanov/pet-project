@@ -3,6 +3,7 @@ import { StyleDecorator } from 'shared/config/storybook/StyleDecorator/StyleDeco
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecoorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import { RouterDecorator } from 'shared/config/storybook/RouterDecorator/RouterDecorator';
+import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import 'shared/config/i18n/i18n';
 
 const preview: Preview = {
@@ -15,7 +16,12 @@ const preview: Preview = {
         },
         layout: 'fullscreen',
     },
-    decorators: [StyleDecorator, ThemeDecorator(Theme.Normal), RouterDecorator],
+    decorators: [
+        StyleDecorator,
+        ThemeDecorator(Theme.Normal),
+        RouterDecorator,
+        StoreDecorator({}),
+    ],
 };
 
 export default preview;
