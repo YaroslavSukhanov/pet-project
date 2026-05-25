@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(stories): updated screenshots">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(stories): added precommit">
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,15 +172,7 @@
       <workItem from="1778520756809" duration="16350000" />
       <workItem from="1778674469363" duration="7295000" />
       <workItem from="1779221077978" duration="18204000" />
-      <workItem from="1779377428613" duration="15924000" />
-    </task>
-    <task id="LOCAL-00014" summary="feat(router): check the github">
-      <option name="closed" value="true" />
-      <created>1770202669515</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1770202669515</updated>
+      <workItem from="1779377428613" duration="16280000" />
     </task>
     <task id="LOCAL-00015" summary="feat(router): check the github 2">
       <option name="closed" value="true" />
@@ -566,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779548165925</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="feat(stories): added precommit">
+      <option name="closed" value="true" />
+      <created>1779729760907</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1779729760907</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): added main pipeline" />
     <MESSAGE value="feat(infra): updated steps in pipeline" />
     <MESSAGE value="feat(infra): removed scssLoader" />
     <MESSAGE value="feat(infra): isolated dev plugins" />
@@ -609,6 +608,7 @@
     <MESSAGE value="feat(input): store decorator" />
     <MESSAGE value="feat(stories): added new stories" />
     <MESSAGE value="feat(stories): updated screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(stories): updated screenshots" />
+    <MESSAGE value="feat(stories): added precommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(stories): added precommit" />
   </component>
 </project>
