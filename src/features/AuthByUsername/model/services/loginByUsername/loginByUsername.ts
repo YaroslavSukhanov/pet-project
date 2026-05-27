@@ -9,6 +9,11 @@ interface ILoginByUsername {
     password: string;
 }
 
+enum LoginErrors {
+    INCORRECT_DATA = 'INCORRECT_DATA',
+    SERVER_ERROR = 'SERVER_ERROR',
+}
+
 export const loginByUsername = createAsyncThunk<IUser, ILoginByUsername, { rejectValue: string }
 >(
     'login/loginByUsername',

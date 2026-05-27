@@ -4,39 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(stories): fixed comma in eslint config">
-      <change afterPath="$PROJECT_DIR$/src/entities/User/model/selectors/getUserAuthData/getUserAuthData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/selectors/getLoginState/getLoginState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/slice/loginSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/types/loginSchema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/const/localStorage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(stories): added new screenshots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__snapshots__/features-loginform--primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/__snapshots__/features-loginform--primary.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/de/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User/model/slice/userSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,23 +175,7 @@
       <workItem from="1778674469363" duration="7295000" />
       <workItem from="1779221077978" duration="18204000" />
       <workItem from="1779377428613" duration="24327000" />
-      <workItem from="1779814254717" duration="8472000" />
-    </task>
-    <task id="LOCAL-00016" summary="feat(links): created links">
-      <option name="closed" value="true" />
-      <created>1770205949289</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1770205949289</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat(links): components">
-      <option name="closed" value="true" />
-      <created>1773420000280</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1773420000280</updated>
+      <workItem from="1779814254717" duration="10021000" />
     </task>
     <task id="LOCAL-00018" summary="feat(i18n): internationalization">
       <option name="closed" value="true" />
@@ -597,7 +553,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779729997228</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feat(stories): added login feature">
+      <option name="closed" value="true" />
+      <created>1779885875960</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1779885875961</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat(stories): added new screenshots">
+      <option name="closed" value="true" />
+      <created>1779885997102</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1779885997103</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,8 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): removed scssLoader" />
-    <MESSAGE value="feat(infra): isolated dev plugins" />
     <MESSAGE value="feat(infra): deleted unused import" />
     <MESSAGE value="feat(infra): testing pull request" />
     <MESSAGE value="feat(infra): added ci screenshot testing" />
@@ -640,6 +610,8 @@
     <MESSAGE value="feat(stories): updated screenshots" />
     <MESSAGE value="feat(stories): added precommit" />
     <MESSAGE value="feat(stories): fixed comma in eslint config" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(stories): fixed comma in eslint config" />
+    <MESSAGE value="feat(stories): added login feature" />
+    <MESSAGE value="feat(stories): added new screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(stories): added new screenshots" />
   </component>
 </project>

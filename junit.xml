@@ -1,117 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="43" failures="0" errors="0" time="6.266">
-  <testsuite name="features/LoginForm" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:29" time="3.089" tests="1">
-    <testcase classname="features/LoginForm Primary smoke-test" name="features/LoginForm Primary smoke-test" time="0.456">
+<testsuites name="jest tests" tests="44" failures="0" errors="0" time="8.259">
+  <testsuite name="features/LoginForm" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="3.844" tests="1">
+    <testcase classname="features/LoginForm Primary smoke-test" name="features/LoginForm Primary smoke-test" time="1.001">
     </testcase>
   </testsuite>
-  <testsuite name="pages/AboutPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:29" time="3.14" tests="2">
-    <testcase classname="pages/AboutPage Normal smoke-test" name="pages/AboutPage Normal smoke-test" time="0.549">
+  <testsuite name="widgets/ErrorPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="4.371" tests="2">
+    <testcase classname="widgets/ErrorPage Light smoke-test" name="widgets/ErrorPage Light smoke-test" time="0.789">
     </testcase>
-    <testcase classname="pages/AboutPage Dark smoke-test" name="pages/AboutPage Dark smoke-test" time="0.225">
-    </testcase>
-  </testsuite>
-  <testsuite name="pages/MainPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:30" time="3.166" tests="2">
-    <testcase classname="pages/MainPage Normal smoke-test" name="pages/MainPage Normal smoke-test" time="0.548">
-    </testcase>
-    <testcase classname="pages/MainPage Dark smoke-test" name="pages/MainPage Dark smoke-test" time="0.22">
+    <testcase classname="widgets/ErrorPage Dark smoke-test" name="widgets/ErrorPage Dark smoke-test" time="0.597">
     </testcase>
   </testsuite>
-  <testsuite name="widgets/Navbar" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:29" time="3.202" tests="2">
-    <testcase classname="widgets/Navbar Light smoke-test" name="widgets/Navbar Light smoke-test" time="0.472">
+  <testsuite name="pages/AboutPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="4.4" tests="2">
+    <testcase classname="pages/AboutPage Normal smoke-test" name="pages/AboutPage Normal smoke-test" time="1.088">
     </testcase>
-    <testcase classname="widgets/Navbar Dark smoke-test" name="widgets/Navbar Dark smoke-test" time="0.276">
-    </testcase>
-  </testsuite>
-  <testsuite name="pages/NotFoundPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:30" time="3.217" tests="2">
-    <testcase classname="pages/NotFoundPage Normal smoke-test" name="pages/NotFoundPage Normal smoke-test" time="0.515">
-    </testcase>
-    <testcase classname="pages/NotFoundPage Dark smoke-test" name="pages/NotFoundPage Dark smoke-test" time="0.223">
+    <testcase classname="pages/AboutPage Dark smoke-test" name="pages/AboutPage Dark smoke-test" time="0.644">
     </testcase>
   </testsuite>
-  <testsuite name="widgets/ErrorPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:29" time="3.378" tests="2">
-    <testcase classname="widgets/ErrorPage Light smoke-test" name="widgets/ErrorPage Light smoke-test" time="0.551">
+  <testsuite name="pages/NotFoundPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="4.607" tests="2">
+    <testcase classname="pages/NotFoundPage Normal smoke-test" name="pages/NotFoundPage Normal smoke-test" time="0.525">
     </testcase>
-    <testcase classname="widgets/ErrorPage Dark smoke-test" name="widgets/ErrorPage Dark smoke-test" time="0.278">
-    </testcase>
-  </testsuite>
-  <testsuite name="widgets/SideBar" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:29" time="3.379" tests="2">
-    <testcase classname="widgets/SideBar Light smoke-test" name="widgets/SideBar Light smoke-test" time="0.624">
-    </testcase>
-    <testcase classname="widgets/SideBar Dark smoke-test" name="widgets/SideBar Dark smoke-test" time="0.274">
+    <testcase classname="pages/NotFoundPage Dark smoke-test" name="pages/NotFoundPage Dark smoke-test" time="0.808">
     </testcase>
   </testsuite>
-  <testsuite name="shared/AppLink" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:30" time="3.623" tests="4">
-    <testcase classname="shared/AppLink Primary smoke-test" name="shared/AppLink Primary smoke-test" time="0.529">
+  <testsuite name="pages/MainPage" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="4.708" tests="2">
+    <testcase classname="pages/MainPage Normal smoke-test" name="pages/MainPage Normal smoke-test" time="0.938">
     </testcase>
-    <testcase classname="shared/AppLink Secondary smoke-test" name="shared/AppLink Secondary smoke-test" time="0.253">
-    </testcase>
-    <testcase classname="shared/AppLink PrimaryDark smoke-test" name="shared/AppLink PrimaryDark smoke-test" time="0.221">
-    </testcase>
-    <testcase classname="shared/AppLink SecondaryDark smoke-test" name="shared/AppLink SecondaryDark smoke-test" time="0.152">
+    <testcase classname="pages/MainPage Dark smoke-test" name="pages/MainPage Dark smoke-test" time="0.812">
     </testcase>
   </testsuite>
-  <testsuite name="shared/Text" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:30" time="4.102" tests="7">
-    <testcase classname="shared/Text Primary smoke-test" name="shared/Text Primary smoke-test" time="0.38">
+  <testsuite name="widgets/SideBar" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="4.769" tests="2">
+    <testcase classname="widgets/SideBar Light smoke-test" name="widgets/SideBar Light smoke-test" time="0.687">
     </testcase>
-    <testcase classname="shared/Text Error smoke-test" name="shared/Text Error smoke-test" time="0.222">
-    </testcase>
-    <testcase classname="shared/Text OnlyTitle smoke-test" name="shared/Text OnlyTitle smoke-test" time="0.21">
-    </testcase>
-    <testcase classname="shared/Text OnlyText smoke-test" name="shared/Text OnlyText smoke-test" time="0.166">
-    </testcase>
-    <testcase classname="shared/Text PrimaryDark smoke-test" name="shared/Text PrimaryDark smoke-test" time="0.161">
-    </testcase>
-    <testcase classname="shared/Text OnlyTitleDark smoke-test" name="shared/Text OnlyTitleDark smoke-test" time="0.164">
-    </testcase>
-    <testcase classname="shared/Text OnlyTextDark smoke-test" name="shared/Text OnlyTextDark smoke-test" time="0.155">
+    <testcase classname="widgets/SideBar Dark smoke-test" name="widgets/SideBar Dark smoke-test" time="0.522">
     </testcase>
   </testsuite>
-  <testsuite name="shared/Input" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:33" time="0.938" tests="1">
-    <testcase classname="shared/Input Primary smoke-test" name="shared/Input Primary smoke-test" time="0.249">
+  <testsuite name="widgets/Navbar" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="4.85" tests="3">
+    <testcase classname="widgets/Navbar Light smoke-test" name="widgets/Navbar Light smoke-test" time="0.869">
+    </testcase>
+    <testcase classname="widgets/Navbar Dark smoke-test" name="widgets/Navbar Dark smoke-test" time="0.53">
+    </testcase>
+    <testcase classname="widgets/Navbar AuthNavbar smoke-test" name="widgets/Navbar AuthNavbar smoke-test" time="0.46">
     </testcase>
   </testsuite>
-  <testsuite name="shared/Modal" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:33" time="0.978" tests="1">
-    <testcase classname="shared/Modal Primary smoke-test" name="shared/Modal Primary smoke-test" time="0.249">
+  <testsuite name="shared/AppLink" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="5.113" tests="4">
+    <testcase classname="shared/AppLink Primary smoke-test" name="shared/AppLink Primary smoke-test" time="0.988">
+    </testcase>
+    <testcase classname="shared/AppLink Secondary smoke-test" name="shared/AppLink Secondary smoke-test" time="0.772">
+    </testcase>
+    <testcase classname="shared/AppLink PrimaryDark smoke-test" name="shared/AppLink PrimaryDark smoke-test" time="0.274">
+    </testcase>
+    <testcase classname="shared/AppLink SecondaryDark smoke-test" name="shared/AppLink SecondaryDark smoke-test" time="0.216">
     </testcase>
   </testsuite>
-  <testsuite name="widgets/ThemeSwitcher" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:33" time="1.158" tests="2">
-    <testcase classname="widgets/ThemeSwitcher Normal smoke-test" name="widgets/ThemeSwitcher Normal smoke-test" time="0.233">
+  <testsuite name="shared/Text" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="5.672" tests="7">
+    <testcase classname="shared/Text Primary smoke-test" name="shared/Text Primary smoke-test" time="0.937">
     </testcase>
-    <testcase classname="widgets/ThemeSwitcher Dark smoke-test" name="widgets/ThemeSwitcher Dark smoke-test" time="0.16">
+    <testcase classname="shared/Text Error smoke-test" name="shared/Text Error smoke-test" time="0.43">
+    </testcase>
+    <testcase classname="shared/Text OnlyTitle smoke-test" name="shared/Text OnlyTitle smoke-test" time="0.606">
+    </testcase>
+    <testcase classname="shared/Text OnlyText smoke-test" name="shared/Text OnlyText smoke-test" time="0.209">
+    </testcase>
+    <testcase classname="shared/Text PrimaryDark smoke-test" name="shared/Text PrimaryDark smoke-test" time="0.211">
+    </testcase>
+    <testcase classname="shared/Text OnlyTitleDark smoke-test" name="shared/Text OnlyTitleDark smoke-test" time="0.183">
+    </testcase>
+    <testcase classname="shared/Text OnlyTextDark smoke-test" name="shared/Text OnlyTextDark smoke-test" time="0.201">
     </testcase>
   </testsuite>
-  <testsuite name="shared/Loader" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:33" time="1.146" tests="2">
-    <testcase classname="shared/Loader Normal smoke-test" name="shared/Loader Normal smoke-test" time="0.247">
-    </testcase>
-    <testcase classname="shared/Loader Dark smoke-test" name="shared/Loader Dark smoke-test" time="0.168">
+  <testsuite name="shared/Modal" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:59:04" time="1.334" tests="1">
+    <testcase classname="shared/Modal Primary smoke-test" name="shared/Modal Primary smoke-test" time="0.262">
     </testcase>
   </testsuite>
-  <testsuite name="shared/Button" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:44:30" time="4.903" tests="13">
-    <testcase classname="shared/Button Primary smoke-test" name="shared/Button Primary smoke-test" time="0.366">
+  <testsuite name="widgets/ThemeSwitcher" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:59:03" time="2.013" tests="2">
+    <testcase classname="widgets/ThemeSwitcher Normal smoke-test" name="widgets/ThemeSwitcher Normal smoke-test" time="0.272">
     </testcase>
-    <testcase classname="shared/Button Clear smoke-test" name="shared/Button Clear smoke-test" time="0.268">
+    <testcase classname="widgets/ThemeSwitcher Dark smoke-test" name="widgets/ThemeSwitcher Dark smoke-test" time="0.161">
     </testcase>
-    <testcase classname="shared/Button ClearInverted smoke-test" name="shared/Button ClearInverted smoke-test" time="0.164">
+  </testsuite>
+  <testsuite name="shared/Loader" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:59:04" time="1.463" tests="2">
+    <testcase classname="shared/Loader Normal smoke-test" name="shared/Loader Normal smoke-test" time="0.259">
     </testcase>
-    <testcase classname="shared/Button Outlined smoke-test" name="shared/Button Outlined smoke-test" time="0.165">
+    <testcase classname="shared/Loader Dark smoke-test" name="shared/Loader Dark smoke-test" time="0.147">
     </testcase>
-    <testcase classname="shared/Button OutlinedSizeL smoke-test" name="shared/Button OutlinedSizeL smoke-test" time="0.155">
+  </testsuite>
+  <testsuite name="shared/Input" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:59:04" time="1.223" tests="1">
+    <testcase classname="shared/Input Primary smoke-test" name="shared/Input Primary smoke-test" time="0.222">
     </testcase>
-    <testcase classname="shared/Button OutlinedSizeXL smoke-test" name="shared/Button OutlinedSizeXL smoke-test" time="0.188">
+  </testsuite>
+  <testsuite name="shared/Button" errors="0" failures="0" skipped="0" timestamp="2026-05-27T12:58:59" time="6.383" tests="13">
+    <testcase classname="shared/Button Primary smoke-test" name="shared/Button Primary smoke-test" time="0.483">
     </testcase>
-    <testcase classname="shared/Button OutlinedDark smoke-test" name="shared/Button OutlinedDark smoke-test" time="0.157">
+    <testcase classname="shared/Button Clear smoke-test" name="shared/Button Clear smoke-test" time="0.816">
     </testcase>
-    <testcase classname="shared/Button BackgroundTheme smoke-test" name="shared/Button BackgroundTheme smoke-test" time="0.146">
+    <testcase classname="shared/Button ClearInverted smoke-test" name="shared/Button ClearInverted smoke-test" time="0.242">
     </testcase>
-    <testcase classname="shared/Button BackgroundInverted smoke-test" name="shared/Button BackgroundInverted smoke-test" time="0.126">
+    <testcase classname="shared/Button Outlined smoke-test" name="shared/Button Outlined smoke-test" time="0.211">
     </testcase>
-    <testcase classname="shared/Button Square smoke-test" name="shared/Button Square smoke-test" time="0.113">
+    <testcase classname="shared/Button OutlinedSizeL smoke-test" name="shared/Button OutlinedSizeL smoke-test" time="0.181">
     </testcase>
-    <testcase classname="shared/Button SquareSizeL smoke-test" name="shared/Button SquareSizeL smoke-test" time="0.118">
+    <testcase classname="shared/Button OutlinedSizeXL smoke-test" name="shared/Button OutlinedSizeXL smoke-test" time="0.213">
     </testcase>
-    <testcase classname="shared/Button SquareSizeXL smoke-test" name="shared/Button SquareSizeXL smoke-test" time="0.116">
+    <testcase classname="shared/Button OutlinedDark smoke-test" name="shared/Button OutlinedDark smoke-test" time="0.167">
     </testcase>
-    <testcase classname="shared/Button Disabled smoke-test" name="shared/Button Disabled smoke-test" time="0.109">
+    <testcase classname="shared/Button BackgroundTheme smoke-test" name="shared/Button BackgroundTheme smoke-test" time="0.135">
+    </testcase>
+    <testcase classname="shared/Button BackgroundInverted smoke-test" name="shared/Button BackgroundInverted smoke-test" time="0.109">
+    </testcase>
+    <testcase classname="shared/Button Square smoke-test" name="shared/Button Square smoke-test" time="0.109">
+    </testcase>
+    <testcase classname="shared/Button SquareSizeL smoke-test" name="shared/Button SquareSizeL smoke-test" time="0.108">
+    </testcase>
+    <testcase classname="shared/Button SquareSizeXL smoke-test" name="shared/Button SquareSizeXL smoke-test" time="0.111">
+    </testcase>
+    <testcase classname="shared/Button Disabled smoke-test" name="shared/Button Disabled smoke-test" time="0.104">
     </testcase>
   </testsuite>
 </testsuites>
