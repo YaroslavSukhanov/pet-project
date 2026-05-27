@@ -1,12 +1,14 @@
-import { configureStore, EnhancedStore, ReducersMapObject } from '@reduxjs/toolkit';
+import { configureStore, ReducersMapObject } from '@reduxjs/toolkit';
 import { counterReducer } from 'entities/Counter/model/slice/counterSlice';
 import { userReducer } from 'entities/User/model/slice/userSlice';
+import { loginReducer } from 'features/AuthByUsername/model/slice/loginSlice';
 import { IStateSchema } from './StateSchema';
 
-export function createReduxStore(initialState: IStateSchema): EnhancedStore {
+export function createReduxStore(initialState: IStateSchema) {
     const rootReducers: ReducersMapObject<IStateSchema> = {
         counter: counterReducer,
         user: userReducer,
+        loginForm: loginReducer,
     };
 
     return configureStore<IStateSchema>({
@@ -15,3 +17,5 @@ export function createReduxStore(initialState: IStateSchema): EnhancedStore {
         preloadedState: initialState,
     });
 }
+
+export type AppDispatch = ReturnType<typeof createReduxStore>['dispatch'];

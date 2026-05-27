@@ -86,6 +86,7 @@ export default defineConfig([// Ignore files and folders listed in .gitignore
             'jsx-a11y/click-events-have-key-events': 'off',
             'no-param-reassign': 'off',
             'react/prop-types': 'off',
+            'jsx-a11y/heading-has-content': ['error', { components: ['Typography'] }],
         },
     }, {
         files: [

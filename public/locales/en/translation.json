@@ -12,5 +12,8 @@
   "increment": "increment",
   "decrement": "decrement",
   "Type username": "Type username",
-  "Type password": "Type password"
+  "Type password": "Type password",
+  "Authorization": "Authorization",
+  "Incorrect username or password": "Incorrect username or password",
+  "Sign out": "Sign out"
 }
