@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(stories): lazy reducers">
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(stories): fixed loginForm stories">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
@@ -177,7 +177,7 @@
       <workItem from="1778674469363" duration="7295000" />
       <workItem from="1779221077978" duration="18204000" />
       <workItem from="1779377428613" duration="24327000" />
-      <workItem from="1779814254717" duration="24447000" />
+      <workItem from="1779814254717" duration="24816000" />
     </task>
     <task id="LOCAL-00020" summary="feat(infra): babel, i18n, babel-extract">
       <option name="closed" value="true" />
@@ -589,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(infra): added ci screenshot testing" />
     <MESSAGE value="feat(infra): added browser installation" />
     <MESSAGE value="feat(infra): changed failureThreshold" />
     <MESSAGE value="feat(sidebar): upgraded sidebar" />
@@ -614,6 +613,7 @@
     <MESSAGE value="feat(stories): added new screenshots" />
     <MESSAGE value="feat(stories): added Navbar stories" />
     <MESSAGE value="feat(stories): lazy reducers" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(stories): lazy reducers" />
+    <MESSAGE value="feat(stories): fixed loginForm stories" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(stories): fixed loginForm stories" />
   </component>
 </project>
