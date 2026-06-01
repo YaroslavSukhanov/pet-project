@@ -4,7 +4,7 @@ import { IUser, userActions } from 'entities/User';
 import i18n from 'shared/config/i18n/i18n';
 import { USER_KEY } from 'shared/const/localStorage';
 
-interface ILoginByUsername {
+export interface ILoginByUsername {
     username: string;
     password: string;
 }
