@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, memo } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecoorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
@@ -29,7 +29,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     disabled?: boolean;
 }
 
-export const Button: FC<ButtonProps> = (props) => {
+export const Button: FC<ButtonProps> = memo((props) => {
     const {
         className, children, theme, square, size = ButtonSize.M, disabled, ...otherProps
     } = props;
@@ -51,4 +51,4 @@ export const Button: FC<ButtonProps> = (props) => {
             {children}
         </button>
     );
-};
+});

@@ -2,6 +2,7 @@ import { ICounterSchema } from 'entities/Counter/model/types/counterSchema';
 import { IUserSchema } from 'entities/User/model/types/user';
 import type { ILoginSchema } from 'features/AuthByUsername';
 import { Reducer, ReducersMapObject, UnknownAction } from '@reduxjs/toolkit';
+import { IProfileSchema } from 'entities/Profile';
 
 export interface IStateSchema {
     counter: ICounterSchema;
@@ -9,6 +10,7 @@ export interface IStateSchema {
 
     // async reducers
     loginForm?: ILoginSchema;
+    profile: IProfileSchema;
 }
 
 export type StateSchemaKey = keyof IStateSchema;

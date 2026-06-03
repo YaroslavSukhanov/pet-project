@@ -20,13 +20,14 @@ import cls from './LoginForm.module.scss';
 
 interface ILoginFormProps {
     className?: string;
+    onSuccess?: () => void;
 }
 
 const initialReducers: ReducersList = {
     loginForm: loginReducer,
 };
 
-const LoginForm: FC<ILoginFormProps> = ({ className }) => {
+const LoginForm: FC<ILoginFormProps> = ({ className, onSuccess }) => {
     const { t } = useTranslation();
     const dispatch = useAppDispatch();
     const username = useAppSelector(getLoginUsername);
@@ -42,8 +43,10 @@ const LoginForm: FC<ILoginFormProps> = ({ className }) => {
         dispatch(loginActions.setPassword(inputPassword));
     };
 
-    const handleOnLoginClick = () => {
-        dispatch(loginByUsername({ username, password }));
+    const handleOnLoginClick = async () => {
+        const result = await dispatch(loginByUsername({ username, password }));
+
+        if (result.meta.requestStatus === 'fulfilled') onSuccess?.();
     };
 
     return (

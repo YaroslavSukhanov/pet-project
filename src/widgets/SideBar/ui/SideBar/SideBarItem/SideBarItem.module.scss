@@ -1,0 +1,23 @@
+.link {
+  padding-left: 10px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.item {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+};
+
+.icon {
+  fill: var(--inverted-primary-color);
+}
+
+.collapsed {
+  .link {
+    opacity: 0;
+    transition: opacity 0.2s;
+    width: 0;
+  }
+}
