@@ -1,8 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
 import { IUser, userActions } from 'entities/User';
 import i18n from 'shared/config/i18n/i18n';
 import { USER_KEY } from 'shared/const/localStorage';
+import { IThunkConfig } from 'app/providers/StoreProvider/config/StateSchema';
 
 export interface ILoginByUsername {
     username: string;
@@ -14,18 +14,23 @@ enum LoginErrors {
     SERVER_ERROR = 'SERVER_ERROR',
 }
 
-export const loginByUsername = createAsyncThunk<IUser, ILoginByUsername, { rejectValue: string }
+export const loginByUsername = createAsyncThunk<
+    IUser,
+    ILoginByUsername,
+    IThunkConfig<string>
 >(
     'login/loginByUsername',
     async (authData, thunkAPI) => {
+        const { dispatch, extra, rejectWithValue } = thunkAPI;
+
         try {
-            const response = await axios.post('http://localhost:8000/login', authData);
+            const response = await extra.api.post('/login', authData);
             if (!response.data) {
                 throw new Error('no response data');
             }
 
             localStorage.setItem(USER_KEY, JSON.stringify(response.data));
-            thunkAPI.dispatch(userActions.setAuthData(response.data));
+            dispatch(userActions.setAuthData(response.data));
 
             return response.data;
         } catch (error) {
@@ -34,7 +39,7 @@ export const loginByUsername = createAsyncThunk<IUser, ILoginByUsername, { rejec
             //         error.response?.data?.message ?? 'unknown error',
             //     );
             // }
-            return thunkAPI.rejectWithValue(i18n.t('Incorrect username or password'));
+            return rejectWithValue(i18n.t('Incorrect username or password'));
         }
     },
 );

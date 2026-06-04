@@ -60,7 +60,8 @@ export default defineConfig([// Ignore files and folders listed in .gitignore
         name: 'custom/rules',
         languageOptions: {
             globals: {
-                __IS_DEV__: 'readonly',
+                __IS_DEV__: true,
+                __API__: true,
             },
         },
         rules: {

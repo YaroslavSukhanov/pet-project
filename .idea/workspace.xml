@@ -4,37 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(tests): added profile, optimisation of render">
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/types/profile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProfilePage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/Profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/const/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/SideBar/model/items.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBarItem/SideBarItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBarItem/SideBarItem.tsx" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(tests): fresh screenshots">
+      <change afterPath="$PROJECT_DIR$/src/shared/api/api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/types/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/types/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/preview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storybook/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginForm/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/ui/LoginModal/LoginModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/LangSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/LangSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Text/Text.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/NavBar/ui/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ThemeSwitcher/ui/ThemeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/testAsyncThunk/TestAsyncThunk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/testAsyncThunk/TestAsyncThunk.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +115,7 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/yaroslav/dev/production-project/node_modules/stylelint&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/yaroslav/dev/production-project/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -201,23 +190,8 @@
       <workItem from="1778674469363" duration="7295000" />
       <workItem from="1779221077978" duration="18204000" />
       <workItem from="1779377428613" duration="24327000" />
-      <workItem from="1779814254717" duration="48652000" />
-    </task>
-    <task id="LOCAL-00023" summary="feat(infra): added eslint, fixed all files">
-      <option name="closed" value="true" />
-      <created>1778002154637</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1778002154637</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat(infra): added eslint, fixed all files">
-      <option name="closed" value="true" />
-      <created>1778002392723</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1778002392723</updated>
+      <workItem from="1779814254717" duration="49598000" />
+      <workItem from="1780512775074" duration="6109000" />
     </task>
     <task id="LOCAL-00025" summary="feat(infra): added stylelint">
       <option name="closed" value="true" />
@@ -595,7 +569,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780335534698</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="feat(tests): added profile, optimisation of render">
+      <option name="closed" value="true" />
+      <created>1780512050743</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1780512050743</updated>
+    </task>
+    <task id="LOCAL-00073" summary="feat(tests): fresh screenshots">
+      <option name="closed" value="true" />
+      <created>1780512246052</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1780512246053</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(sidebar): upgraded sidebar" />
     <MESSAGE value="feat(sidebar): independent jobs" />
     <MESSAGE value="fix(tests): fixed routing in tests" />
     <MESSAGE value="fix(tests): updated screenshots" />
@@ -638,6 +627,7 @@
     <MESSAGE value="feat(stories): added new screenshots" />
     <MESSAGE value="feat(tests): added tests for login" />
     <MESSAGE value="feat(tests): added profile, optimisation of render" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(tests): added profile, optimisation of render" />
+    <MESSAGE value="feat(tests): fresh screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(tests): fresh screenshots" />
   </component>
 </project>

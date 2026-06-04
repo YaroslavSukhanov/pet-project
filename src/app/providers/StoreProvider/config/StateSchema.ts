@@ -3,6 +3,8 @@ import { IUserSchema } from 'entities/User/model/types/user';
 import type { ILoginSchema } from 'features/AuthByUsername';
 import { Reducer, ReducersMapObject, UnknownAction } from '@reduxjs/toolkit';
 import { IProfileSchema } from 'entities/Profile';
+import { AxiosInstance } from 'axios';
+import { NavigateFunction } from 'react-router-dom';
 
 export interface IStateSchema {
     counter: ICounterSchema;
@@ -24,4 +26,14 @@ export interface IReducerManager {
 
 export interface IReduxStoreWithManager {
     reducerManager: IReducerManager;
+}
+
+export interface IThunkExtraArg {
+    api: AxiosInstance;
+    navigate: NavigateFunction;
+}
+
+export interface IThunkConfig<T> {
+    rejectValue: T;
+    extra: IThunkExtraArg;
 }
