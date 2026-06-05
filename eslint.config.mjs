@@ -72,6 +72,7 @@ export default defineConfig([// Ignore files and folders listed in .gitignore
             'react/jsx-indent': 'off', // 👈 главный виновник цикла
             'react/jsx-indent-props': 'off', // 👈 та же история для пропсов
             'import-x/prefer-default-export': 'off',
+            'import-x/no-cycle': ['error', { maxDepth: 10 }],
             'react/jsx-props-no-spreading': 'warn',
             'react/require-default-props': 'off',
             'react/function-component-definition': 'off',

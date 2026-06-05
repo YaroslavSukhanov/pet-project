@@ -2,7 +2,7 @@ import { ICounterSchema } from 'entities/Counter/model/types/counterSchema';
 import { IUserSchema } from 'entities/User/model/types/user';
 import type { ILoginSchema } from 'features/AuthByUsername';
 import { Reducer, ReducersMapObject, UnknownAction } from '@reduxjs/toolkit';
-import { IProfileSchema } from 'entities/Profile';
+import { IProfileSchema } from 'entities/Profile/model/types/profile';
 import { AxiosInstance } from 'axios';
 import { NavigateFunction } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ export interface IReduxStoreWithManager {
 
 export interface IThunkExtraArg {
     api: AxiosInstance;
-    navigate: NavigateFunction;
+    navigate?: NavigateFunction;
 }
 
 export interface IThunkConfig<T> {

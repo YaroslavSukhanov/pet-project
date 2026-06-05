@@ -7,7 +7,7 @@ export function createReducerManager(
     initialReducers: ReducersMapObject<IStateSchema>,
 ): IReducerManager {
     const reducers = { ...initialReducers };
-    let combinedReducer = combineReducers(reducers);
+    let combinedReducer = combineReducers(reducers) as Reducer<IStateSchema>;
     let keysToRemove: StateSchemaKey[] = [];
 
     return {
@@ -31,7 +31,7 @@ export function createReducerManager(
 
             reducers[key] = reducer;
 
-            combinedReducer = combineReducers(reducers);
+            combinedReducer = combineReducers(reducers) as Reducer<IStateSchema>;
         },
 
         remove: (key: StateSchemaKey) => {
@@ -43,7 +43,7 @@ export function createReducerManager(
 
             keysToRemove.push(key);
 
-            combinedReducer = combineReducers(reducers);
+            combinedReducer = combineReducers(reducers) as Reducer<IStateSchema>;
         },
     };
 }

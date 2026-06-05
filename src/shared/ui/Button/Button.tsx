@@ -31,10 +31,16 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 export const Button: FC<ButtonProps> = memo((props) => {
     const {
-        className, children, theme, square, size = ButtonSize.M, disabled, ...otherProps
+        className,
+        children,
+        theme = ButtonTheme.OUTLINE,
+        square,
+        size = ButtonSize.M,
+        disabled,
+        ...otherProps
     } = props;
 
-    const mods: Record<string, boolean> = {
+    const mods = {
         [cls[theme]]: true,
         [cls.square]: square,
         [cls[size]]: true,

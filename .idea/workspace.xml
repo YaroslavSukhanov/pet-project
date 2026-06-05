@@ -4,26 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(tests): fresh screenshots">
-      <change afterPath="$PROJECT_DIR$/src/shared/api/api.ts" afterDir="false" />
+    <list default="true" id="8a1ab2ab-1a1e-459f-a0d2-d58ceb61a159" name="Changes" comment="feat(tests): fixed strict type errors">
+      <change afterPath="$PROJECT_DIR$/public/locales/de/profile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/en/profile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileData/getProfileData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileError/getProfileError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileFirstname/getProfileFirstname.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileIsLoading/getProfileIsLoading.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/selectors/getProfileLastname/getProfileLastname.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/model/services/fetchProfileData/fetchProfileData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Profile/ui/ProfileCard/ProfileCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/types/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/types/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/jest.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/preview.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/storybook/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/StateSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/reducerManager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/reducerManager.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/config/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/StoreProvider/ui/StoreProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/types/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/renderComponent/renderComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/tests/testAsyncThunk/TestAsyncThunk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/tests/testAsyncThunk/TestAsyncThunk.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ThemeProvider/lib/useTheme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Profile/model/slice/profileSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ui/ProfilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/StoreDecorator/StoreDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Portal/Portal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Portal/Portal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBarItem/SideBarItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/SideBar/ui/SideBar/SideBarItem/SideBarItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +47,9 @@
         <option value="CSS File" />
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -191,15 +200,8 @@
       <workItem from="1779221077978" duration="18204000" />
       <workItem from="1779377428613" duration="24327000" />
       <workItem from="1779814254717" duration="49598000" />
-      <workItem from="1780512775074" duration="6109000" />
-    </task>
-    <task id="LOCAL-00025" summary="feat(infra): added stylelint">
-      <option name="closed" value="true" />
-      <created>1778009903057</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1778009903057</updated>
+      <workItem from="1780512775074" duration="7358000" />
+      <workItem from="1780568862770" duration="7901000" />
     </task>
     <task id="LOCAL-00026" summary="feat(infra): added jest, added first test">
       <option name="closed" value="true" />
@@ -585,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780512246053</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="feat(tests): added api instance">
+      <option name="closed" value="true" />
+      <created>1780567722530</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1780567722530</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,8 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(sidebar): independent jobs" />
-    <MESSAGE value="fix(tests): fixed routing in tests" />
     <MESSAGE value="fix(tests): updated screenshots" />
     <MESSAGE value="fix(tests): added --junit" />
     <MESSAGE value="fix(tests): added uncommited screenshots" />
@@ -628,6 +636,8 @@
     <MESSAGE value="feat(tests): added tests for login" />
     <MESSAGE value="feat(tests): added profile, optimisation of render" />
     <MESSAGE value="feat(tests): fresh screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(tests): fresh screenshots" />
+    <MESSAGE value="feat(tests): added api instance" />
+    <MESSAGE value="feat(tests): fixed strict type errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(tests): fixed strict type errors" />
   </component>
 </project>

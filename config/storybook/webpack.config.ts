@@ -15,21 +15,25 @@ export default ({ config }: { config: webpack.Configuration }) => {
         entry: '',
         src: path.resolve(currentDirname, '..', '..', 'src'),
     };
-    config.resolve.modules.push(paths.src);
-    config.resolve.extensions.push('.ts', '.tsx');
-    config.module.rules.push(buildCssLoader(true));
+    const { resolve, module: moduleConfig, plugins } = config;
 
-    config.module.rules = config.module.rules.map(
-        (rule: webpack.RuleSetRule): webpack.RuleSetRule => {
-            if (/svg/.test(rule.test as string)) {
+    resolve?.modules?.push(paths.src);
+    resolve?.extensions?.push('.ts', '.tsx');
+    moduleConfig?.rules?.push(buildCssLoader(true));
+
+    if (moduleConfig?.rules) {
+        moduleConfig.rules = moduleConfig.rules.map((rule) => {
+            if (rule && typeof rule === 'object' && /svg/.test(rule.test as string)) {
                 return { ...rule, exclude: /\.svg$/i };
             }
 
             return rule;
-        },
-    );
-    config.module.rules.push(buildSvgLoader(true));
-    config.plugins.push(new webpack.DefinePlugin({
+        });
+    }
+
+    moduleConfig?.rules?.push(buildSvgLoader(true));
+
+    plugins?.push(new webpack.DefinePlugin({
         __IS_DEV__: JSON.stringify(true),
         __API__: JSON.stringify(''),
     }));
